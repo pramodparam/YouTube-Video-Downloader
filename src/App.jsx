@@ -18,7 +18,7 @@ const App = () => {
     }
     setLoading(true);
     try {
-      const res = await fetch(`https://you-tube-video-downloder-backend.vercel.app/download?url=${urlValue}`);
+      const res = await fetch(`https://youtube-video-downloader-virid.vercel.app///download?url=${urlValue}`);
       const data = await res.json();
       setData(data);
       setUrlValue("");
